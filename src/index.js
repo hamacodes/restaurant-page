@@ -7,8 +7,6 @@ import createAboutPage from "./about.js";
 // Create homepage on load
 createHomePage();
 
-
-
 // Button event listeners
 const contentDiv = document.querySelector('#content');
 
