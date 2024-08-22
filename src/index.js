@@ -4,6 +4,11 @@ import createHomePage from "./home.js";
 import createMenuPage from "./menu.js";
 import createAboutPage from "./about.js";
 
+// Create homepage on load
+createHomePage();
+
+
+
 // Button event listeners
 const contentDiv = document.querySelector('#content');
 
