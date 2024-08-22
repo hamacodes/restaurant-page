@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 body {
   background-color: bisque;
@@ -10,22 +15,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-button {
-  margin: 20px;
-  padding: 10px 20px;
-  background-color: lightblue;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bolder;
 }
 
 #content {
@@ -39,4 +28,19 @@ button {
   padding: 20px;
   gap: 20px;
   text-align: center;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0px;
 }
