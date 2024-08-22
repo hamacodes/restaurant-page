@@ -19,4 +19,4 @@ export default function createHomePage() {
   content.appendChild(headline);
   content.appendChild(img);
   content.appendChild(description);
-}
+};
