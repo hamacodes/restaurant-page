@@ -3,7 +3,7 @@ import createMenuPage from "./menu.js";
 import createAboutPage from "./about.js";
 
 // Button event listeners
-const contentDiv = querySelector("#content");
+const contentDiv = querySelector('#content');
 
 const homeButton = document.querySelector('#home');
 homeButton.addEventListener('click', () => {
