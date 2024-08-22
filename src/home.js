@@ -9,7 +9,7 @@ export default function createHomePage() {
   headline.textContent = "Welcome to Hama's Restaurant";
 
   const img = document.createElement('img');
-  img.src = 'https://picsum.photos/id/112/800/500';
+  img.src = 'https://picsum.photos/id/112/2000/1000';
   img.alt = 'Delicious food from Hama\'s Restaurant';
 
   const description = document.createElement('p');
