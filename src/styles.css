@@ -6,6 +6,10 @@
 
 body {
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -31,4 +35,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  padding: 20px 0;
+  gap: 20px;
 }
