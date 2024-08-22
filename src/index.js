@@ -2,12 +2,23 @@ import createHomePage from "./home.js";
 import createMenuPage from "./menu.js";
 import createAboutPage from "./about.js";
 
-// button event listeners
+// Button event listeners
+const contentDiv = querySelector("#content");
+
 const homeButton = document.querySelector('#home');
-homeButton.addEventListener('click', createHomePage);
+homeButton.addEventListener('click', () => {
+  contentDiv.innerHTML = ''; // clear the content div
+  createHomePage();
+});
 
 const menuButton = document.querySelector('#menu');
-menuButton.addEventListener('click', createMenuPage);
+menuButton.addEventListener('click', () => {
+  contentDiv.innerHTML = ''; // clear the content div
+  createMenuPage();
+});
 
 const aboutButton = document.querySelector('#about');
-aboutButton.addEventListener('click', createAboutPage);
+aboutButton.addEventListener('click', () => {
+  contentDiv.innerHTML = ''; // clear the content div
+  createAboutPage();
+});
