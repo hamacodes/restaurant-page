@@ -17,7 +17,7 @@ The website's content is generated programmatically, demonstrating the use of mo
 - Deploying a project to GitHub Pages, including handling the intricacies of serving from the `dist/` directory.
 
 ## Live Demo:
-Project Link: [Live Demo](https://hamacodes.github.io/restaurant-page/)
+Project Link: [Hama's Restaurant](https://hamacodes.github.io/restaurant-page/)
 
 ## Project Structure
 ```
